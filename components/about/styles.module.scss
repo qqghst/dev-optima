@@ -11,18 +11,23 @@
 		gap: 4.479vw; //86px. 1920
 
 		div:nth-child(2) {
-            .titleContainer {
-                display: flex;
-                flex-direction: column;
-                gap: 1.042; //20px, 1920
+			.titleContainer {
+				display: flex;
+				flex-direction: column;
+				gap: 1.042vw; //20px, 1920
 
-                padding-bottom: 2.917vw; //56px, 1920
-            }
+				padding-bottom: 2.917vw; //56px, 1920
+
+				h5 {
+					width: 32.813vw; //630px
+					color: $color-grey-100;
+				}
+			}
 			.itemContainer {
 				display: grid;
 				grid-template-columns: repeat(2, 1fr);
 				grid-template-rows: auto;
-				gap: 40px;
+				gap: 0.417vw; //8px, 1920
 				justify-content: center;
 				align-items: center;
 				// display: grid;

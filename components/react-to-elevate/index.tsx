@@ -20,12 +20,11 @@ const ReadyToElevate: React.FC = () => {
 					<ButtonBorder>Try for free</ButtonBorder>
 				</div>
 			</div>
-
 			{/* элипсы */}
-			<div className='absolute top-0 left-0'>
+			<div className='absolute -top-[36.042vw] left-0'>
 				<Image src='/ready-to-elevate/ellipse-left.png' alt='ellipse-left' width={1600 / 2} height={1600 / 2} />
 			</div>
-			<div className='absolute top-0 right-0'>
+			<div className='absolute -top-[36.042vw] right-0'>
 				<Image
 					src='/ready-to-elevate/ellipse-right.png'
 					alt='ellipse-left'

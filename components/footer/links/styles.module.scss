@@ -4,11 +4,18 @@
 		flex-direction: column;
 		gap: 0.833vw;
 		li {
-			font-size: 16px; // Общий стиль размера шрифта для всех элементов списка
-			color: grey; // Стандартный цвет для всех элементов списка
+			font-size: 16px;
+			color: grey; 
 
 			&:first-child {
-				color: white; // Переопределение цвета только для первого элемента списка
+				color: white; 
+			}
+
+			a {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				gap: 8px;
 			}
 		}
 	}

@@ -1,0 +1,20 @@
+.review {
+	display: flex;
+	flex-direction: column;
+	gap: 1.667vw; //32px, 1920
+
+	.icon {
+		width: 3.333vw; //64px, 1920
+		height: 3.333vw; //64px, 1920
+	}
+
+	.textContainer {
+		display: flex;
+		flex-direction: column;
+		gap: 1.667vw; //32px, 1920
+
+		h4 {
+			width: 27.188vw; //522px, 1920
+		}
+	}
+}

@@ -10,10 +10,10 @@ const Home = () => {
 	return (
 		<main className={styles.main}>
 			<Masthead />
-			{/* <About /> */}
-			{/* <InnovateSolutions /> */}
-			{/* <Reviews />  */}
-			{/* <ReadyToElevate /> */}
+			<About />
+			<InnovateSolutions />
+			<Reviews /> 
+			<ReadyToElevate />
 		</main>
 	);
 };

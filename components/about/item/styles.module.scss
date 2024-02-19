@@ -4,14 +4,24 @@
 	display: flex;
 	flex-direction: column;
 	align-items: start;
-	gap: 0.417vw; //8px, 1920
 
-    // img {
-    //     width: 36px;
-    //     height: 36px;
-    // }
+	img {
+		transform: translateX(-1.5vw); //-21px, 1920
+	}
 
-    h5 {
-        color: $color-white;
-    }
+	div:nth-child(2) {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		gap: 0.417vw; //8px, 1920
+		transform: translateY(-1.042vw); //-20px, 1920
+
+		h5 {
+			color: $color-white;
+		}
+
+		h6 {
+			color: $color-grey-100;
+		}
+	}
 }

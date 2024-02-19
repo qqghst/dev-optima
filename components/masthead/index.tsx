@@ -15,15 +15,15 @@ const Masthead: React.FC = () => {
 					<Input />
 				</div>
 				<div className={styles.rightSide}>
-					<Image src='/masthead/illustration.png' alt='illustration' width={589} height={415} />
+					<Image src='/masthead/illustration.webp' alt='illustration' width={589} height={415} />
 				</div>
 			</div>
 			{/* это круглые прозрачные элипсы */}
 			<div className='absolute top-0 left-0 -z-0'>
-				<Image src='/masthead/ellipse-left-corner.png' alt='ellipse' width={1600 / 2} height={1600 / 2} />
+				<Image src='/masthead/ellipse-left-corner.webp' alt='ellipse' width={1600 / 2} height={1600 / 2} />
 			</div>
 			<div className='absolute top-[13vw] left-[54vw] -z-0'>
-				<Image src='/masthead/ellipse-illustration.png' alt='ellipse' width={1600 / 2} height={1600 / 2} />
+				<Image src='/masthead/ellipse-illustration.webp' alt='ellipse' width={1600 / 2} height={1600 / 2} />
 			</div>
 		</section>
 	);

@@ -6,7 +6,7 @@ const InnovateSolutions: React.FC = () => {
 	return (
 		<section className={styles.innovateSolutions}>
 			<div className={styles.innovateSolutions__container}>
-				<div className='pb-[56px]'>
+				<div className={styles.textContainer}>
 					<h2>Innovative solutions for operational excellence</h2>
 					<h5>
 						Tailored DevOps expertise driving your business momentum. Personalized solutions for growth and
@@ -15,19 +15,19 @@ const InnovateSolutions: React.FC = () => {
 				</div>
 				<div className='flex flex-row'>
 					<Image
-						src='/innovate-solutions/1.png'
+						src='/innovate-solutions/1.webp'
 						alt='Continuous Integration & Deployment'
 						width={380}
 						height={459}
 					/>
 					<Image
-						src='/innovate-solutions/2.png'
+						src='/innovate-solutions/2.webp'
 						alt='Cloud Solutions & Infrastructure Management'
 						width={380}
 						height={459}
 					/>
 					<Image
-						src='/innovate-solutions/3.png'
+						src='/innovate-solutions/3.webp'
 						alt='Automated Testing & Quality Assurance'
 						width={380}
 						height={459}

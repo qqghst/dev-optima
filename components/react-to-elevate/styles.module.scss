@@ -1,9 +1,11 @@
 @import '../../styles/variables';
 
 .readyToElevate {
+	position: relative;
 	&__container {
 		background-color: $color-black;
-		height: 100vh;
+		// height: 100vh;
+		padding: 9.167vw 0; //176px 0, 1920
 		width: 100vw;
 		display: flex;
 		flex-direction: column;

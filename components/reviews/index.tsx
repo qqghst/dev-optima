@@ -8,7 +8,7 @@ const Reviews: React.FC = () => {
 		<section className={styles.reviews}>
 			<div className={styles.reviews__container}>
 				<Review
-					img='/reviews/icon-1.svg'
+					img='/reviews/icon-1.png'
 					text='Thanks to DevOptima, our team can focus more on innovation and less on operational challenges. Their
 				cloud management solutions are top-notch.'
 					imgHuman='/reviews/human-1.png'
@@ -17,7 +17,7 @@ const Reviews: React.FC = () => {
 				/>
 
 				<Review
-					img='/reviews/icon-2.svg'
+					img='/reviews/icon-2.png'
 					text='DevOptima has been a game-changer for us. With their support, weve shifted our focus from operational hurdles to pushing boundaries in innovation.'
 					imgHuman='/reviews/human-2.png'
 					name='Jane Doe'

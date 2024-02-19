@@ -7,7 +7,7 @@ const About: React.FC = () => {
 	return (
 		<section className={styles.about}>
 			<div className={styles.about__container}>
-				<Image src='/about/panel2.png' alt='panel' width={1000 / 2} height={638 / 2} />
+				<Image src='/about/panel2.webp' alt='panel' width={1000 / 2} height={638 / 2} />
 				<div>
 					<div className={styles.titleContainer}>
 						<h2>What is DevOptima?</h2>
@@ -33,7 +33,7 @@ const About: React.FC = () => {
 							subtitle='Seamless software delivery pipeline.'
 						/>
 						<Item
-							img='/about/icon-2.png'
+							img='/about/icon-4.png'
 							title='Automation mastery'
 							subtitle='Unlock full automation potential.'
 						/>

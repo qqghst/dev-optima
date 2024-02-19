@@ -12,9 +12,9 @@ const Footer: React.FC = () => {
 					<p className='text-[14px] text-white'>Devoptima 2023 © All rights reserved</p>
 				</div>
 				<div className='flex flex-row gap-[176px] items-start'>
-					<Links title='Resources' item1='Docs' item2='Release notes' item3='Security' />
-					<Links title='Community' item1='Twitter' item2='Linkedin' item3='Github' item4='Discource' />
-					<Links title='Legal' item1='Privacy policy' item2='Terms of services' />
+					<Links title='Resources' item1='Docs' item2='Release notes' item3='Security' isVisibleIcon={false}  />
+					<Links title='Community' item1='Twitter' icon1='/footer/twitter.svg' item2='Linkedin' icon2='/footer/linkedin.svg' item3='Github' icon3='/footer/github.svg' item4='Discource' icon4='/footer/discourse.svg' isVisibleIcon={true}/>
+					<Links title='Legal' item1='Privacy policy' item2='Terms of services' isVisibleIcon={false} />
 				</div>
 			</div>
 		</footer>

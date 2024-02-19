@@ -1,21 +1,31 @@
 @import '../../styles/variables';
 
 .innovateSolutions {
-    &__container {
-        background-color: $color-black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-            h2 {
-                width: 537px;
-                text-align: center;
-            }
+	&__container {
+		background-color: $color-black;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100vw;
+		padding: 8.125vw 0; //156px 0, 1920px
 
-            h5 {
-                width: 544px;
-                text-align: center;
-            }
-    }
+		.textContainer {
+            display: flex;
+            flex-direction: column;
+            gap: 1.042vw; //20px, 1920
+            padding-bottom: 2.917vw; //56px, 1920
+            
+			h2 {
+                width: 28.333vw; //544px, 1920
+				text-align: center;
+			}
+
+			h5 {
+				width: 28.333vw; //544px, 1920
+				text-align: center;
+                color: $color-grey-100
+			}
+		}
+	}
 }
