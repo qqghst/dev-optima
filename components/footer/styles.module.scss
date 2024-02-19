@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+
+.footer {
+    &__container {
+        background-color: $color-black;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+        padding: 2.5vw $padding-desktop; //48px $padding-desktop, 1920
+    }
+}

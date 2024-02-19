@@ -1,0 +1,24 @@
+@import '../../styles/variables';
+
+.masthead {
+	width: 100vw;
+	height: 100vh;
+	background-color: $color-black;
+	background-image: url('../../public/masthead/bg.png');
+    
+	&__container {
+		height: 100vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 $padding-desktop;
+
+		.leftSide {
+            z-index: 1000;
+			display: flex;
+			flex-direction: column; 
+			gap: 1.458vw; //28px, 1920
+		}
+	}
+}

@@ -1,0 +1,58 @@
+@import './variables';
+
+h1 {
+	font-family: AeonikLightRegular;
+	font-size: 3.75vw; //72px, 1920
+	font-weight: 400;
+	line-height: 4.219vw; //81px, 1920
+	letter-spacing: -0.01em;
+	text-align: left;
+	background: linear-gradient(102.21deg, rgba(109, 156, 246, 0.7) -11.46%, #ffffff 46.19%);
+	-webkit-background-clip: text;
+	color: transparent;
+	display: inline-block;
+
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+}
+
+h2 {
+	font-family: AeonikLightRegular;
+	font-size: 2.5vw; //48px, 1920
+	font-weight: 400;
+	line-height: 2.813vw; //54px, 1920
+	letter-spacing: -0.01em;
+	text-align: left;
+	color: $color-white;
+}
+
+h4 {
+	// font-family: Inter;
+	font-size: 1.25vw; //24px, 1920
+	font-weight: 500;
+	line-height: 1.875vw; //36px, 1920
+	letter-spacing: -0.01em;
+	text-align: left;
+	color: $color-grey-200;
+}
+
+h5 {
+	// font-family: 'Inter';
+	font-size: 1.042vw; //20px, 1920
+	font-weight: 300;
+	line-height: 1.563; //30px, 1920
+	letter-spacing: -0.02em;
+	text-align: left;
+	color: $color-grey-200;
+}
+
+h6 {
+	// font-family: Inter;
+	font-size: 0.833vw; //16px, 1920
+	font-weight: 400;
+	line-height: 1.042vw; //20px, 1920
+	letter-spacing: -0.02em;
+	text-align: left;
+	color: $color-grey-200;
+}

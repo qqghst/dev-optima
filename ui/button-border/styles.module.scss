@@ -1,0 +1,13 @@
+@import '../../styles/variables';
+
+.buttonBorder {
+    padding: 0.833vw 1.875vw; //16px 36px, 1920px
+    border-radius: 32px;
+    background-color: $color-blue-secondary;
+    border: 1px solid  $color-blue-primary;
+    transition: background-color 0.3s ease-in;
+
+    &:hover {
+        background-color: $color-blue-primary;
+    }
+}

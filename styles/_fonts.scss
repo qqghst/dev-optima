@@ -1,0 +1,49 @@
+@import './variables';
+
+@font-face {
+    font-family: 'AeonikBold';
+    src: url('../public/fonts/AeonikTRIAL-Bold.otf');
+    //font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AeonikBoldItalic';
+    src: url('../public/fonts/AeonikTRIAL-BoldItalic.otf');
+    //font-weight: 550;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AeonikLight';
+    src: url('../public/fonts/AeonikTRIAL-Light.otf');
+    //font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AeonikLightItalic';
+    src: url('../public/fonts/AeonikTRIAL-LightItalic.otf');
+    //font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AeonikLightRegular';
+    src: url('../public/fonts/AeonikTRIAL-Regular.otf');
+    //font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AeonikLightItalic';
+    src: url('../public/fonts/AeonikTRIAL-RegularItalic.otf');
+    //font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

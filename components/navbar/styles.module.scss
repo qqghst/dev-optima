@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.navbar {
+	position: absolute;
+
+	&__container {
+        width: 100vw;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+        padding: 0.833vw $padding-desktop; //16px $padding-desktop, 1920
+
+	}
+}
